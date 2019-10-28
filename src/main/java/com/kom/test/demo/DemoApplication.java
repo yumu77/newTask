@@ -16,8 +16,12 @@ public class DemoApplication {
 
     @RequestMapping(value = "test")
     public String getResponse(){
-        return "this is a test demo!";
+        return "this is a test demo! \r\n";
     }
 
+    @RequestMapping(value = "test1")
+    public String getResponse1(){
+        return "this is a test demo! \r\n";
+    }
 
 }
